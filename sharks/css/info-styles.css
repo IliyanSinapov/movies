@@ -1,0 +1,29 @@
+.non-active-info-image{
+
+    margin-top: 5rem;
+
+    width: 15%;
+    height: 15%;
+
+    border: none;
+    border-radius: 2rem;
+}
+
+.active-info-image{
+    margin-top: 5rem;
+    margin-left: 5rem;
+
+    display: flex;
+    justify-self: center;
+
+    width: 40%;
+    height: 40%;
+
+    border: none;
+    border-radius: 2rem;
+}
+
+.paragraph {
+    padding: 15rem;
+    display: none;
+}

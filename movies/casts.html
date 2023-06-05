@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Breeds</title>
+
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/navbar_styles.css" rel="stylesheet">
+    <link href="/css/info-styles.css" rel="stylesheet">
+
+    <style>
+
+        main {
+            margin: 5rem;
+            padding: 2rem;
+        }
+
+        .casts-container {
+            display: flex;
+            gap: 2vw;
+        }
+
+        .card {
+
+        }
+
+        .card-img {
+            aspect-ratio: 3/2;
+            max-width: 9.5vw;
+
+            border-radius: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav class="navbar container">
+        <img style="margin: -4rem;" width="100" height="100" src="/images/logo.png" alt="">
+        <a style="position:absolute; left: 15rem" href="index.html" class="nav-link">Sharks</a>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="casts.html" class="nav-link">Breeds</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact_us.html" class="nav-link">Contact Us</a>
+            </li>
+            <div class="active"></div>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class = "casts-container">
+        <div class="card">
+            <img class = "card-img" src="/images/daniel_craig.jpg" alt="">
+
+            <h3>Daniel Craig as James Bond</h3>
+        </div>
+
+        <div class="card">
+            <img class = "card-img" src="/images/javier_barderm.jpg" alt="">
+
+            <h3>Javier Bardem as Raoul Silva</h3>
+        </div>
+
+        <div class="card">
+            <img class = "card-img" src="/images/judi_dench.jpg" alt="">
+
+            <h3>Judi Dench as M</h3>
+        </div>
+
+        <div class="card">
+            <img class = "card-img" src="/images/naomie_haris.jpg" alt="">
+
+            <h3>Naomie Haris as Moneypenny</h3>
+        </div>
+
+        <div class="card">
+            <img class = "card-img" src="/images/ben_whishaw.jpg" alt="">
+
+            <h3>Ben Whishaw as Q</h3>
+        </div>
+
+    </div>
+</main>
+
+<script src="/js/breed-show-script.js" type="module"></script>
+</body>
+</html>
